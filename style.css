@@ -1,0 +1,102 @@
+my images are still not the same size despite adding the last part /* nav bar styling */
+
+.navbar {
+    background-color: #333;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+/* nav list style */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Display list items inline*/
+.navbar ul li {
+    display: inline;
+    margin: 0 1em;
+}
+/* nav links inside list items */
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+.navbar ul li a:hover {
+    background-color: #ff9900;
+    transition: color 0.3s ease;
+}
+/* Main */
+.main-content {
+    padding-top: 5em; 
+}
+.main-content section {
+    padding: 2em 1em;
+    text-align: center;
+}
+/* home section */
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+#home p {
+    font-size: 1.2em;
+    color: #666;
+}
+/* Portfolio Section */
+.portfolio-container {
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+/* items in portfolio */
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1em;
+    padding: 1em;
+        list-style: none;
+    width: 30%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+/* heading in portfolio */
+.portfolio-item h3 {
+    font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+/* p in portfolio */
+.portfolio-item p {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+.portfolio-item img {
+    width: 100%;
+   box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+/* hover effect on portfolio items */
+.portfolio-item:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+/* Footer section */
+#footer {
+    background-color: #222;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
